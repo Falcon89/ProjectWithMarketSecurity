@@ -9,10 +9,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <jsp:include page="css.jsp"/>
     <link href="img/favicon.ico" rel="shortcut icon">
 </head>
+<jsp:include page="css.jsp"/>
 <fmt:requestEncoding value="UTF-8"/>
 <body class="animsition">
 <div class="page-wrapper">
@@ -22,7 +21,7 @@
                 <div class="login-content">
                     <div class="login-logo">
                         <a href="#">
-                            <img src="images/icon/logo.png" alt="CoolAdmin">
+                            <img src="${pageContext.request.contextPath}/images/icon/logo.png" alt="CoolAdmin">
                         </a>
                     </div>
                     <div class="login-form">

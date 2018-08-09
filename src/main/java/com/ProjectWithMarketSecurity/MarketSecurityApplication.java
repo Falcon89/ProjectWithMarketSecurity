@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 //@EnableScheduling
-public class MarketSecurityApplication extends SpringBootServletInitializer {
+public class MarketSecurityApplication {
 //	@Override
 //	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 //		return builder.sources(MarketSecurityApplication.class);
